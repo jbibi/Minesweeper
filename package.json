@@ -1,0 +1,25 @@
+{
+    "name": "minesweeper",
+    "version": "1.0.0",
+    "description": "minesweeper game",
+    "main": "minesweeper.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "babel src -d lib"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jbibi/Minesweeper.git"
+    },
+    "author": "jbibiloni",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jbibi/Minesweeper/issues"
+    },
+    "homepage": "https://github.com/jbibi/Minesweeper#readme",
+    "dependencies": {},
+    "devDependencies": {
+        "babel-cli": "^6.24.1",
+        "babel-preset-env": "^1.6.0"
+    }
+}
